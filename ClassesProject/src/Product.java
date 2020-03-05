@@ -8,7 +8,7 @@ public class Product {
      * Default Product constructor
      */
     public Product() {
-        new Product("", 0.0, 1);
+        new Product("Junk Food", 0.50, 1);
     }
 
      /**
