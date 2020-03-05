@@ -1,0 +1,201 @@
+Money: $0.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+s
+The vending machine is empty.
+
+Money: $0.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+a
+Description:
+pop tart
+Price:
+.5
+Quantity:
+3
+
+Money: $0.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+s
+a - pop tart @ 0.50
+
+Money: $0.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+a
+Description:
+cookie
+Price:
+.67
+Quantity:
+12
+
+Money: $0.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+s
+a - pop tart @ 0.50
+b - cookie @ 0.67
+
+Money: $0.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+b
+a - pop tart @ 0.50
+b - cookie @ 0.67
+
+Make a selection:
+b
+Not enough money.
+Returned $0.00
+
+Money: $0.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+i
+A - Dollar @ $1.00
+B - Quarter @ $0.25
+C - Dime @ $0.10
+D - Nickel @ $0.05
+
+Please make a selection:
+d
+
+Money: $0.05
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+b
+a - pop tart @ 0.50
+b - cookie @ 0.67
+
+Make a selection:
+b
+Not enough money.
+Returned $0.05
+
+Money: $0.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+i
+A - Dollar @ $1.00
+B - Quarter @ $0.25
+C - Dime @ $0.10
+D - Nickel @ $0.05
+
+Please make a selection:
+c
+
+Money: $0.10
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+b
+a - pop tart @ 0.50
+b - cookie @ 0.67
+
+Make a selection:
+a
+Not enough money.
+Returned $0.10
+
+Money: $0.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+r
+Returned $0.00
+
+Money: $0.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+i
+A - Dollar @ $1.00
+B - Quarter @ $0.25
+C - Dime @ $0.10
+D - Nickel @ $0.05
+
+Please make a selection:
+a
+
+Money: $1.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+b
+a - pop tart @ 0.50
+b - cookie @ 0.67
+
+Make a selection:
+a
+Bought pop tart @ 0.50
+
+Money: $0.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+i
+A - Dollar @ $1.00
+B - Quarter @ $0.25
+C - Dime @ $0.10
+D - Nickel @ $0.05
+
+Please make a selection:
+a
+
+Money: $1.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+b
+a - pop tart @ 0.50
+b - cookie @ 0.67
+
+Make a selection:
+a
+Bought pop tart @ 0.50
+
+Money: $0.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+i
+A - Dollar @ $1.00
+B - Quarter @ $0.25
+C - Dime @ $0.10
+D - Nickel @ $0.05
+
+Please make a selection:
+b
+
+Money: $0.25
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+i
+A - Dollar @ $1.00
+B - Quarter @ $0.25
+C - Dime @ $0.10
+D - Nickel @ $0.05
+
+Please make a selection:
+b
+
+Money: $0.50
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+b
+a - pop tart @ 0.50
+b - cookie @ 0.67
+
+Make a selection:
+a
+Bought pop tart @ 0.50
+
+Money: $0.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+i
+A - Dollar @ $1.00
+B - Quarter @ $0.25
+C - Dime @ $0.10
+D - Nickel @ $0.05
+
+Please make a selection:
+a
+
+Money: $1.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+b
+a - pop tart @ 0.50
+b - cookie @ 0.67
+
+Make a selection:
+a
+Sold out of pop tart @ 0.50
+Returned $1.00
+
+Money: $0.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+r
+Returned $1.50
+
+Money: $0.00
+(S)hows Products - (I)nsert Coins - (B)uy - (A)dd Item -(R)emove Coins - (Q)uit
+q
+Have a nice day!

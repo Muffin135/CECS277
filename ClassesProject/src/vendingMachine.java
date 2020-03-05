@@ -21,6 +21,7 @@ public class vendingMachine {
 
     // The total money in the Vending Machine
     double totalMoney = 0;
+    double storedMoney = 0;
 
     // vendingMachine(): Default constructor
     /**
@@ -92,15 +93,25 @@ public class vendingMachine {
         if (boughtItem.getPrice() > totalMoney) {
             result = "Not enough money.";
             // Returns user's money
-            String returnMoney = String.format("%.2f", removeCoins());
-            result += "\nReturned $" + returnMoney;
+
+          String returnMoney = String.format("%.2f", totalMoney);
+            totalMoney = 0;
+
+          String returnMoney = String.format("%.2f", removeCoins());
+
+          result += "\nReturned $" + returnMoney;
         }
 
         // If the item is not in stock
         else if (boughtItem.getQuantity() < 1){
             result = "Sold out of " + boughtItem.itemListing();
             // Returns user's money
+
+            String returnMoney = String.format("%.2f", totalMoney);
+            totalMoney = 0;
+
             String returnMoney = String.format("%.2f", removeCoins());
+
             result += "\nReturned $" + returnMoney;
         }
         // If the user has enough money and the item is in stock
@@ -109,7 +120,12 @@ public class vendingMachine {
             boughtItem.setQuantity(boughtItem.getQuantity() - 1);
             result = "Bought " + boughtItem.itemListing();
             // Charges the user's money
+
+            storedMoney += boughtItem.getPrice();
+            totalMoney = 0;
+
             totalMoney -= boughtItem.getPrice();
+
         }
 
         // Returns the result message
@@ -201,8 +217,8 @@ public class vendingMachine {
      */
     public double removeCoins() {
 
-        double coinsReturned = totalMoney;
-        totalMoney = 0.00;
+        double coinsReturned = storedMoney;
+        storedMoney = 0.00;
 
         return coinsReturned;
     }
