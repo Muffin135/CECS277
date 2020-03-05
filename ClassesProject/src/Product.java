@@ -4,6 +4,19 @@ public class Product {
     private double price;
     private int quantity;
 
+    /**
+     * Default Product constructor
+     */
+    public Product() {
+        new Product("", 0.0, 1);
+    }
+
+     /**
+     * Overloaded Product constructor
+     * @param newName Product name
+     * @param newPrice Product Price
+     * @param newQuantity Product quantity
+     */
     public Product(String newName, double newPrice, int newQuantity) {
 
         setName(newName);
