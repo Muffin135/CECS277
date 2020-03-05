@@ -1,21 +1,34 @@
 import java.util.ArrayList;
 
-public class vendingMachine {
+public class VendingMachine {
 
     private ArrayList<Product> products;
-
     double totalMoney = 0;
 
-    public vendingMachine() {
+    // Constructor. Takes no parameters. Generates new array list.
+    /**
+     * Default Checkout constructor
+     */
+    public VendingMachine() {
 
         products = new ArrayList<>();
     }
 
+    // addItem(): Method adds Product to ArrayList. Takes Product parameter. Returns Void.
+    /**
+     * Adds Product to products array
+     * @param newItem New Product
+     */
     public void addItem(Product newItem) {
 
         products.add(newItem);
     }
 
+    /**
+     * Gets item selection
+     * @param selection New char
+     * @return Selected product as a String
+     */
     public String getItem(char selection) {
 
         Product boughtItem = products.get(selection - 97);
@@ -41,6 +54,10 @@ public class vendingMachine {
         return result;
     }
 
+    /**
+     * Shows inventory list
+     * @return List of items as an ArrayList of Strings
+     */
     public ArrayList<String> showItems() {
 
         ArrayList<String> inventory = new ArrayList<>();
@@ -60,6 +77,10 @@ public class vendingMachine {
         return inventory;
     }
 
+    /**
+     * Deposits coins in the vending machine
+     * @param newCoins New int
+     */
     public void addCoins(int newCoins) {
 
         if (newCoins == 0) {
@@ -76,6 +97,10 @@ public class vendingMachine {
         }
     }
 
+    /**
+     * Removes all coins from vending machine
+     * @return Stored coins as double
+     */
     public double removeCoins() {
 
         double coinsReturned = totalMoney;
